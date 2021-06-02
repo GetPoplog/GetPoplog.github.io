@@ -1,6 +1,6 @@
-## Welcome to GitHub Pages
+## Welcome to GetPoplog
 
-## Our Aims
+### Our Aims
 
 We aim to automate of the production and test of reliable, easy-to-use, simple installation methods for Poplog that deliver a well-organised but flexible installation.
 - By reliable we mean that it copes with a wide variety of distributions without intervention
