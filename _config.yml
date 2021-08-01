@@ -1,3 +1,5 @@
 remote_theme: poole/lanyon
 title: Get Poplog
 description: Download and Install Poplog on your Linux Machine
+
+theme: jekyll-theme-cayman
