@@ -3,7 +3,7 @@
 Poplog is an old-school, open source AI development system for four programming languages: Pop-11, Prolog, Common Lisp and Standard ML. 
 
 <div align="center">
-<a href="Download.html"><img src="download.png"/></a>
+<a href="Download.html"><img src="download.png" alt="Download Poplog"/></a>
 </div>
 
 ## Why Poplog?
