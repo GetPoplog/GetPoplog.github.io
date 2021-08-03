@@ -42,6 +42,7 @@ $ apt install ./poplog_0.2.0-1_amd64.deb  # The leading './' tells apt to use a 
 
 1. [Download the AppImage](https://github.com/GetPoplog/Seed/releases/download/v0.2.0-beta/Poplog-x86_64.AppImage) from the release pages of the GetPoplog Seed repository.
 2. At a terminal type:
+
 ```sh
 $ cd ~/Downloads                        # Navigate to your local downloads folder   
 $ chmod a+x Poplog-x86_64.AppImage      # Ensure it is executable
