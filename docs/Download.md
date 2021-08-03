@@ -4,34 +4,34 @@ Work in progress ... please call back soon
 
 ## Recommended: Install via Standard Package (*.deb or *.rpm)
 
- - For most Linux users the best way to install Poplog is using a standard package. 
- - We host these on our page on [OpenBuildService](https://docs.appimage.org/packaging-guide/hosted-services/opensuse-build-service.html).
- - From there you can either:
-   1. Add the OBS repo to your list of sources and then use apt or dnf to install Poplog. You'll find instructions for this are given when you click on the page.
-   2. Alternatively you can download the package for your OS (`*.deb` or `*.rpm`). After that you will need to install using `apt` or `dnf`.
+For most Linux users the best way to install Poplog is using a standard package. 
+ - We host these on our page on [OpenBuildService](https://software.opensuse.org/download.html?project=home:getpoplog&package=poplog).
+ - We recommend using the "Add repository and install manually" links for your distribution.
+ - Only use the 'Grab binary packages directly' link if you know what you are doing.
 
-### Worked Example for Centos User
+### Worked Example for Centos 8 User
 
-1. In a web browser navigate to [link](https://docs.appimage.org/packaging-guide/hosted-services/opensuse-build-service.html)
+1. In a web browser navigate to [link](https://software.opensuse.org/download.html?project=home:getpoplog&package=poplog)
 2. Click on Centos logo
-3. Click on Grab binary packages directly & identify the closest match to your OS
-4. Download [poplog-0.2.0-2.1.src.rpm](https://download.opensuse.org/repositories/home:/getpoplog/CentOS_8/src/poplog-0.2.0-2.1.src.rpm)
-5. At a terminal type
+3. Click on "Add repository and install manually"
+4. Find the best match for 'Centos 8' and enter the instructions at a terminal
 ```sh
-$ cd ~/Downloads     # Navigate to the downloads folder
-$ dnf install poplog-0.2.0-2.1.src.rpm
+cd /etc/yum.repos.d/
+wget https://download.opensuse.org/repositories/home:getpoplog/CentOS_8/home:getpoplog.repo
+yum install poplog
 ```
 
-### Worked Example for Ubuntu User
+### Worked Example for Ubuntu 20.04 User
 
-1. In a web browser navigate to [link](https://docs.appimage.org/packaging-guide/hosted-services/opensuse-build-service.html)
+1. In a web browser navigate to [link](https://software.opensuse.org/download.html?project=home:getpoplog&package=poplog)
 2. Click on Ubuntu logo
-3. Click on Grab binary packages directly & identify the closest match to your OS
-4. Download [poplog_0.2.0-1_amd64.deb](https://download.opensuse.org/repositories/home:/getpoplog/xUbuntu_20.04/amd64/poplog_0.2.0-1_amd64.deb) 
-5. At a terminal type
+3. Click on "Add repository and install manually"
+4. Find the best match for 'Ubuntu 20.04' and enter the instructions at a terminal
 ```sh
-$ cd ~/Downloads     # Navigate to the downloads folder
-$ apt install ./poplog_0.2.0-1_amd64.deb  # The leading './' tells apt to use a local file
+echo 'deb http://download.opensuse.org/repositories/home:/getpoplog/xUbuntu_20.04/ /' | sudo tee /etc/apt/sources.list.d/home:getpoplog.list
+curl -fsSL https://download.opensuse.org/repositories/home:getpoplog/xUbuntu_20.04/Release.key | gpg --dearmor | sudo tee /etc/apt/trusted.gpg.d/home_getpoplog.gpg > /dev/null
+sudo apt update
+sudo apt install poplog
 ```
 
 ## Alternative for all Linux users - AppImage
@@ -48,10 +48,6 @@ $ cd ~/Downloads                        # Navigate to your local downloads folde
 $ chmod a+x Poplog-x86_64.AppImage      # Ensure it is executable
 $ ./Poplog-x86_64.AppImage --help       # Try running it!
 Usage: poplog [action-word] [options] [file(s)]
-
-This poplog "commander" runs various Poplog commands (pop11, prolog, etc) with
-the special environment variables and $PATH they require. The 'action-word'
-determines what command is actually invoked.
 ...
 ```
 
