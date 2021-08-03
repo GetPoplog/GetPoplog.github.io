@@ -4,6 +4,7 @@ Poplog is an old-school, open source AI development system for four programming 
 
 <div align="center">
 <a href="Download.html"><img src="download.png" alt="Download Poplog"/></a>
+<p><em>Binary distributions built for Linux systems</em></p>
 </div>
 
 ## Why Poplog?
