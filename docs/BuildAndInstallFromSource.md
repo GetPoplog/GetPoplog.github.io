@@ -1,3 +1,6 @@
+---
+sort: 90
+---
 # Build and Install Poplog from Source
 
 You may prefer to build and install Poplog from source. This is only really suitable for people with some experience with using Linux at the command line - but it does give a few extra options.

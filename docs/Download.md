@@ -1,3 +1,6 @@
+---
+sort: 10
+---
 # Download and Install Poplog for Linux
 
 ## Recommended: Install via Standard Package (*.deb or *.rpm)
