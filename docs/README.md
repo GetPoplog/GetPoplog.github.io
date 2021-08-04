@@ -1,6 +1,3 @@
----
-sort: 0
----
 # Welcome to GetPoplog
 
 Poplog is an old-school, open source AI development system for four programming languages: Pop-11, Prolog, Common Lisp and Standard ML. 

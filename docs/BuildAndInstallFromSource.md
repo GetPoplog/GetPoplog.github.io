@@ -1,5 +1,5 @@
 ---
-sort: 90
+sort: 2
 ---
 # Build and Install Poplog from Source
 
