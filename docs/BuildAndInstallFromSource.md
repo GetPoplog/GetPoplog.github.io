@@ -1,5 +1,5 @@
 ---
-sort: II
+sort: 2
 ---
 # Build and Install Poplog from Source
 
