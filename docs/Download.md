@@ -41,6 +41,7 @@ sudo apt install poplog
 
 ### Worked Example of Using the Poplog AppImage
 
+<a href="https://github.com/GetPoplog/Seed/releases/latest/download/Poplog-x86_64.AppImage"><img src="https://docs.appimage.org/_images/download-appimage-banner.svg" alt="download link" style="float:right"/></a>
 1. [Download the AppImage](https://github.com/GetPoplog/Seed/releases/latest/download/Poplog-x86_64.AppImage) from the release pages of the GetPoplog Seed repository.
 2. At a terminal type:
 
